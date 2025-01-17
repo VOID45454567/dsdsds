@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  header {
+    background-color: rgb(58, 3, 209);
+    color: white;
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    .titleAndDeckr {
+      text-align: center;
+      margin-right: auto;
+      flex: 1;
+    }
+    .regAndSign {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 15%;
+      button {
+        height: 30px;
+        width: 120px;
+        border-radius: 10px;
+        background-color: rgb(6, 240, 220);
+        border: none;
+        color: white;
+        font-weight: 900;
+      }
+    }
+  }
+  main {
+    .content {
+      width: 60%;
+      margin: 0 auto;
+      border: 1px solid black;
+    }
+  }
+  footer {
+  }
+}
